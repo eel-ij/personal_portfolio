@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio | Ji Lee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body class="home">
+    <header>
+      <input id="main-menu-checkbox" type="checkbox">
+      <label for="main-menu-checkbox" class="menu-toggle">
+        <span class="sr-only">Open main menu</span>
+        <img src="/images/icons/menu.svg" aria-hidden="true" alt="menu icon" class="hamburger" />
+      </label>
+
+      <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
+        <label for="main-menu-checkbox" class="menu-close">
+          <span class="sr-only">Close main menu</span>
+          <img src="/images/icons/close.svg" alt="close menu" aria-hidden="true" />
+        </label>
+        <ul>
+          <li class="logo"><a href="/index.html" class="logo"><img src="/images/personal_logo.svg" alt="logo" /></a></li>
+          <li class="nav_links"><a href="#works">Works</a></li>
+          <li class="nav_links"><a href="#about">About</a></li>
+          <li class="nav_links"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#main-menu-toggle" class="backdrop" tabindex="-1" hidden></a>
+      
+    </header>
+    <div class="container">
+      <article class="top_module">
+        <img src="/images/personal_logo_lg.svg" class="logo_lg" alt="large personal logo">
+        <h1>Hi! My name is Ji</h1>
+        <p>I'm a UI/UX Designer based in the Bay Area.<br>I'm driven to create seamless user experience through visually appealing design.</p>
+      </article>
+      <h2 class="subhead" id="works">Works</h2>
+      <div class="home_card home_prj">
+        <img src="/images/homepage/simul_01.png" alt="project screenshot">
+        <div class="text">
+          <h2>Simul</h2>
+          <h5>Cloud Storage App</h5>
+          <a href="/project.html" class="light_btn">View Case Study</a>
+        </div>
+      </div>
+      <h2 class="subhead about" id="about">About</h2>
+      <div class="home_card bio">
+        <img src="/images/homepage/bio.png" alt="profile picture">
+        <div class="text">
+          <h2>Bio</h2>
+          <p>I studied printmaking and Roman art history. I applied my knowledge and experience into the digital space and learned a lot on the way.</p>
+          <a href="/bio.html">View Full Bio</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <article class="contacts" id="contact">
+        <h2>Let's Connect!</h1>
+        <p>Like my work? Feel free to connect with me at ji.lee45@gmail.com</p>
+        <ul class="social">
+          <li class="media">
+            <a href="https://www.linkedin.com/in/eelij"><img src="/images/homepage/linkedin.png" alt="linkedin_logo"></a>
+          </li>
+          <li class="media">
+            <a href="https://www.github.com/eelij"><img src="/images/homepage/github.png" alt="github_logo"></a>
+          </li>
+          <li class="media">
+            <a href="https://www.twitter.com/eel_ij"><img src="/images/homepage/twitter.png" alt="twitter_logo"></a>
+          </li>
+          <li class="media">
+            <a href="mailto:ji.lee45@gmail.com"><img src="/images/homepage/email.png" alt="email_logo"></a>
+          </li>
+        </ul>
+      </article>
+      <p class="credits">Ji Lee 2019 | Walnut Creek, CA</p>
+    </footer>
+  </body>
+</html>
