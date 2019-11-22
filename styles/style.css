@@ -493,7 +493,7 @@ footer p {
     flex-grow: 1.5;
   }
 
-  .menu-toggle, .menu-close {
+  .menu-toggle, .menu-close, .lg_hide {
     display: none;
   }
 
